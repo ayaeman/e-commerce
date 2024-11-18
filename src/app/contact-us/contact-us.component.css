@@ -1,0 +1,170 @@
+body {
+    background-color:  #eee;
+    overflow-x:hidden;
+
+  }
+ 
+  .title {
+   
+      margin-bottom: 50px;
+      text-transform: uppercase;
+  }
+ 
+  .card-block {
+    font-size: 50px;
+    font-weight: 800;
+    margin-left: 10%;
+    margin-top: 40px;
+
+      position: relative;
+      padding: 1em;
+      border: none;
+      /* border-top: 1px solid rgba(34, 36, 38, .1); */
+      box-shadow: none;
+      background-color: #f0f8ff;
+       
+  }
+ 
+  .card-block .black-text
+  {
+    color: #ff4400;
+  }
+  .image
+
+  {
+    width: 100% !important;
+    height: 400px;
+  }
+  
+  .card {
+      font-size: 1em;
+      overflow: hidden;
+      padding: 5;
+      border-radius: .28571429rem;
+      /* box-shadow: 0 1px 3px 0 #d4d4d5, 0 0 0 1px #d4d4d5; */
+      margin-top:20px;
+      width: 117.9%;
+      margin-left: -120px;
+      border: transparent;
+  }
+
+  
+  .btn {
+    margin-top: auto;
+  }
+
+  @media screen  and (max-width : 786px) {
+    .card-block{
+       font-size: 30px;
+       margin-left: 85px;
+    }
+    
+  }
+
+
+
+  body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    margin-left: 2%;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+
+
+.btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px;
+    }
+.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px;
+
+}
+
+
+input
+{
+  padding-bottom: 10px;
+  width: 180%;
+}
+.form-group
+{
+    padding-bottom: 30px;
+}
+
+
+#form_name , #form_email ,#form_message
+{
+    height: 55px;
+}
+textarea{
+    min-height: 150px;
+    max-height:200px
+}
+@media screen and (max-width :883px) {
+    .form-card
+    {
+        margin-left: -60px;
+    }
+    input{
+         width: 90%
+    };
+    .card{
+      max-width: 20px;
+    }
+    .form-group
+    {
+      width: 180%;
+      margin-left:-75px;
+    }
+    .btn
+    {
+      margin-left:-75px;
+
+    }
+    .container h1
+    {
+      margin-left: -60px;
+    }
+}
+@media (max-width: 345px) {
+    .col-md-12 {
+        flex: 0 0 auto;
+        width: 88%;
+    
+    }
+    
+    
+}
+@media (max-width: 992px) {
+  .container, .container-lg, .container-md, .container-sm {
+      max-width: 900px;
+      margin-left: 77px;
+  }
+  input , textarea
+  {
+    width: 50%;
+  }
+  .form-group
+  {
+    width: 180%;
+    margin-left:-120px;
+  }
+  .container h1
+  {
+    margin-left: -100px;
+  }
+  .btn
+  {
+    margin-left:-95px;
+
+  }
+}

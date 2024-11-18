@@ -1,0 +1,57 @@
+
+
+<div class="team-boxed">
+  <div class="container">
+      <div class="intro ">
+        <h1 style="font-size: 45px;font-weight: 800;text-align: center; padding-top: 60px;">Meet our <span>team</span></h1>
+      </div>
+      <div class="row people">
+          <div class="col-md-6 col-lg-4 item" *ngFor="let member of Members ; let i = index ">
+            
+              <div class="box"><img class="rounded-circle" [src]="member.memberImg">
+                  <h3 class="name">{{member.memberName}}</h3>
+                  <p class="title">{{member.memberRole}}</p>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+    <div class="testimonials-clean">
+      <div class="container">
+          <div class="intro">
+              <h2 class="text-center">Testimonials </h2>
+              <p class="text-center">Our customers love us! Read what they have to say below. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet vitae.</p>
+          </div>
+          <div class="row people">
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box">
+                    <p class="text-center">Over three years in business, We have had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="author"><img class="rounded-circle" src="../../assets/people/beautiful-woman-face-portrait-brown-background.jpeg">
+                      <h5 class="name">Hop</h5>
+                      <p class="title">Founder.</p>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box">
+                    <p class="text-center">Over three years in business, We have had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="author"><img class="rounded-circle" src="../../assets/people/portrait-british-woman.jpeg">
+                      <h5 class="name">Kelly</h5>
+                      <p class="title">Marketing</p>
+                  </div>
+              </div>
+              <div class="col-md-6 col-lg-4 item">
+                  <div class="box">
+                    <p class="text-center">Over three years in business, We have had the chance to work on a variety of projects, with companies Lorem ipsum dolor sit amet.</p>
+                  </div>
+                  <div class="author"><img class="rounded-circle" src="../../assets/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg">
+                      <h5 class="name">Donnn</h5>
+                      <p class="title">Product , VP</p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>

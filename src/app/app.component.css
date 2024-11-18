@@ -1,0 +1,33 @@
+.navBar-height{
+    height: 150px;
+    }
+    .navbar-brand{
+        margin-left: 10%;
+        font-size: 30px;
+        font-weight: 600;
+    
+    }
+    .navbar-brand span{
+        color: #ff4400;
+    }
+    .navbar-nav{
+        position: relative;
+        left: 11%;
+        
+         
+    }
+    .nav-item{
+        width: 100px;
+        font-size: 17px;
+        color: rgb(117, 112, 112);
+        
+    }
+   .active
+   {
+    color: #ff4400 !important;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    width: fit-content;
+    
+   }

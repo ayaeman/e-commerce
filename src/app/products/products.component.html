@@ -1,0 +1,42 @@
+
+<div class="products-text">
+    <h1><span>Choose your</span></h1>
+    <h1>favorite stuffs</h1>
+</div>
+<div class="new-arrivals">
+    <h1>New Arrivals</h1>
+</div>
+<div class="card-container" >
+<div class="card" *ngFor="let product of newarrivals ; let i = index">
+    <img class="card-img-top" [src]="product.cardImage" alt="Card image cap">
+    <div class="card-body">
+        <div class="card-title">
+          <button style="background-color: transparent; border: transparent">
+          <h3>{{product.cardTitle}}</h3>
+        </button>
+        </div>
+        <p class="new-arrival-price">${{product.cardPrice}}</p>
+      <p class="card-text">{{product.cardDescription}}</p>
+    </div>
+   
+  </div>
+</div>
+ 
+
+
+
+<div class="new-arrivals">
+  <h1>Popular</h1>
+</div>
+
+<div class="card-container">
+  <div class="card" *ngFor="let popular of popular ; let i = index">
+    <img class="card-img-top" [src]="popular.cardImage" alt="Card image cap">
+    <div class="card-body">
+        <div class="card-title"><h3>{{popular.cardTitle}}</h3></div>
+        <p class="new-arrival-price">${{popular.cardPrice}}</p>
+      <p class="card-text">{{popular.cardDescription}}</p>
+    </div>
+  </div>
+</div>
+

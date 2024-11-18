@@ -1,0 +1,165 @@
+
+.bg-image{
+    /* margin: 0; */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:contain;
+    opacity: 0.99;   
+    
+}
+.bg-text{
+    position: absolute;
+    top: 50%;
+    left: 7%;
+    color: white;
+
+}
+.bg-text h1{
+    font-size: 70px;
+    font-weight: 700;
+}
+.bg-text p{
+
+    font-weight: 300;
+    font-size: 25px;
+    height: 20px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn-dark
+{
+    height: 60px;
+    width: 40%;
+    border-radius: 30px;
+    background-color: black;
+    font-size: 20px;
+    font-weight: 500;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+span{
+    color: #ff4400;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    position: relative;
+    margin-top: 50px;
+}
+.card
+{
+    width: 70%;
+    height: 433px;
+    margin-left: 25%;
+    margin-top: 5%;
+    border: transparent;
+    /* background-color: red; */
+}
+
+.active {
+    color: red; /* Change this to your desired color */
+    font-weight: bold; /* Optional: to make it stand out */
+  }
+  
+  body {
+    background-color:  #eee;
+    overflow-x:hidden;
+
+  }
+  .card-block {
+    font-size: 50px;
+    margin-left: 10%;
+    margin-top: 40px;
+    position: relative;
+    padding: 1em;
+    border: none;
+    /* border-top: 1px solid rgba(34, 36, 38, .1); */
+    box-shadow: none;
+    background-color: #f0f8ff;
+       
+  }
+ .card-block .desc
+ {
+    font-size: 30px;
+    color: grey;
+ }
+  .card-block .black-text
+  {
+    color: #ff4400;
+    font-weight: 800;
+
+  }
+  .image
+
+  {
+    width: 100% !important;
+    height: 450px;
+  }
+ 
+  .card {
+      font-size: 1em;
+      overflow: hidden;
+      padding: 5;
+      border-radius: .28571429rem;
+      margin-top:20px;
+      width: 117.9%;
+      margin-left: -120px;
+      border: transparent;
+  }
+
+  .btn {
+    margin-top: auto;
+  }
+
+  @media screen  and (max-width : 789px) {
+    .card-block{
+       font-size: 30px;
+       margin-left: 85px;
+    }
+    .card{
+        height: 808px;
+        margin-left: -12%;
+        width: 117%;
+        
+    }
+    .card-block{
+        margin-left: 42px;
+    }
+  }
+
+
+
+  body {
+    font-family: 'Lato', sans-serif;
+}
+
+.container h1 {
+    margin-bottom: 20px;
+    margin-left: 2%;
+    font-size: 40px;
+    font-weight: 750;
+}
+
+
+
+@media screen and (max-width : 769px) {
+    .bg-image{
+        margin-left: -50px;
+        width: 115%;
+    }
+    .bg-text p{
+
+        font-weight: 300;
+        font-size: 20px;
+        height: 50px;
+        font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .btn-dark
+{
+    height: 70px;
+    width: 60%;
+    
+}
+
+}
+

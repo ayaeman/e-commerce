@@ -1,0 +1,16 @@
+<div class="products">
+    <h1>Featured products</h1>
+   <div class="card-group ">
+  <div class="card" *ngFor="let product of products ; let i = index">
+    <img [src]="product.cardImage" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">{{product.cardTitle}}</h5>
+      <p class="card-text new-arrival-price"> ${{product.cardPrice}}</p>
+      <p class="card-text"> {{product.cardDescription}}</p>
+
+    </div>
+  </div>
+  
+</div>
+         
+</div>
